@@ -68,9 +68,9 @@ module.exports = {
     ]
 };
 
-　　官方的无刷新，其实是在前面讲到的iframe实现的实时刷新，如果我们，至进行http://localhost:8080/index.html是不会进行实时刷新的。还有一点，就是官方后面加的build，作用时让其监测，打包出bundle.js，但亲测会导致，到cannot page file， 所以建议，调试完毕之后，手动打包。
+官方的无刷新，其实是在前面讲到的iframe实现的实时刷新，如果我们，至进行http://localhost:8080/index.html是不会进行实时刷新的。还有一点，就是官方后面加的build，作用时让其监测，打包出bundle.js，但亲测会导致，到cannot page file， 所以建议，调试完毕之后，手动打包。
 
-   注意：通常我们设置好webpack-dev-server服务自动刷新预览功能之后，发现手机预览不了，其实是由于webpack-pack-server服务安全机制导致的，只允许本机访问，我们可以把host设置为0.0.0.0就可以允许或者设置为本机地址。
+注意：通常我们设置好webpack-dev-server服务自动刷新预览功能之后，发现手机预览不了，其实是由于webpack-pack-server服务安全机制导致的，只允许本机访问，我们可以把host设置为0.0.0.0就可以允许或者设置为本机地址。
 
 解决参考资料：
   
@@ -86,4 +86,5 @@ github isuues：
 
 https://github.com/webpack/webpack-dev-server/issues/160
 
-最后，给大家一个建议，多看官方的示例文档，这才是快速入门的最佳渠道，webpack官方文档：https://webpack.github.io/docs/tutorials/getting-started/#development-server　
+最后，给大家一个建议，多看官方的示例文档，这才是快速入门的最佳渠道：
+webpack官方文档：https://webpack.github.io/docs/tutorials/getting-started/#development-server　
