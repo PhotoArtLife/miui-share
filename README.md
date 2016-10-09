@@ -1,5 +1,7 @@
-demo view：
-https://sec-cdn.static.xiaomi.net/secStatic/groups/miui-sec/mukuashi/StaticRes/share.png
+Demo View Image：
+<img src="https://sec-cdn.static.xiaomi.net/secStatic/groups/miui-sec/mukuashi/StaticRes/share.png" width = "100%"  alt="" align=center>
+
+Demo URL：http://sec-cdn.static.xiaomi.net/secStatic/groups/miui-sec/mukuashi/miuiPCShare
 
 学习webpack，基本始终是围绕：
 
