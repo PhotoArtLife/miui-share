@@ -34,10 +34,15 @@
     
 
  可以在package.json的scripts里面加上执行命令：
- "scripts": {
+
+"scripts": {
+ 
     "start": "webpack-dev-server --inline --hot",
+    
     "build": "webpack --display-error-details",
+    
     "watch": "webpack --progress --colors --watch"
+    
   },
 
 
@@ -46,6 +51,7 @@
 示例代码：package.json
 
 "scripts": {
+
     "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build",
     /*build导致找不到页面 cannot file*/
     "hot": "webpack-dev-server  --devtool eval --progress --colors --hot --content-base",
@@ -54,6 +60,7 @@
 示例代码：webpack.config.js
 
 module.exports = {
+
     entry: [
       'webpack/hot/dev-server',
       'webpack-dev-server/client?http://localhost:8080',
@@ -65,7 +72,7 @@ module.exports = {
 
    注意：通常我们设置好webpack-dev-server服务自动刷新预览功能之后，发现手机预览不了，其实是由于webpack-pack-server服务安全机制导致的，只允许本机访问，我们可以把host设置为0.0.0.0就可以允许或者设置为本机地址。
 
-　　解决参考资料：
+解决参考资料：
   
 stackoverflow问答：
 
