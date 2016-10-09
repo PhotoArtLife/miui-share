@@ -27,7 +27,16 @@
 　　但这里可能会遇到，我们改动js文件，无法实时更新的问题，很大一部分原因是没有理解编译后的bundle是虚拟的问题，本地其实质是没有编译的，所以我们不能用本地的路径去处理，需要进行更改为http://localhost:8080/bundle.js.
 
 　　我们可能预想实现无刷新是这样的：
-    js 文件修改，webpack-dev-server 监控到变化，webpack 重新编译，实时更新浏览器中的页面，但可惜的是，http://localhost:8080/index.html 对 js 文件的变化无动于衷，改完之后，手动刷新才能生效。
+    
+    js 文件修改，
+    
+    webpack-dev-server 监控到变化，
+    
+    webpack 重新编译，
+    
+    实时更新浏览器中的页面，
+    
+    但可惜的是，http://localhost:8080/index.html 对 js 文件的变化无动于衷，改完之后，手动刷新才能生效。
 
 　　webpack-dev-server 提供了两种模式用于自动刷新页面：
   
