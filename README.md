@@ -14,9 +14,13 @@
 　　使用开发服务器：我们webpack中使用的开发调试服务器通常是 webpack-dev-server，通过这个服务我们更多的是想实现无刷新的处理编译入口文件。　
 
 　　通过以下命令全局安装
-  	1：npm install webpack-dev-server -g
+  	
+    1：npm install webpack-dev-server -g
+    
 　　启动服务器
+  
   	2：webpack-dev-server --progress --colors
+    
 　　这会绑定一个小型express服务器到localhost:8080，来为你的静态资源及bundle（自动编译）服务。
     通过访问http://localhost:8080/webpack-dev-server/bundle，bundle每次重编译后浏览器页面都会自动更新。
 
