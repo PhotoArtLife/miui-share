@@ -15,14 +15,17 @@
     .sosh {
       padding: 10px;
     }
+    .share-pic{
+      display: block;
+      width: 0;
+      height: 0;
+    }
   </style>
 </head>
 <body>
-  <img src="http://placekitten.com/300/300" alt="" style="display:none;">
-  
-  <div id="share" data-title="一键分享组件"></div>
-  
-  <div class="share" data-title="classname" data-url="http://miui.com" data-sites="weixin,weibo,qzone,tqq,douban,tieba,yixin,renren" data-pic="http://placekitten.com/200/300"></div>
 
+  <img class="share-pic" src="http://placekitten.com/300/300" alt=""> 
+  <div id="share" data-title="一键分享组件"></div> 
+  <div class="share" data-title="classname" data-url="http://miui.com" data-sites="weixin,weibo,qzone,tqq,douban,tieba,yixin,renren" data-pic="http://placekitten.com/200/300"></div>
 <script type="text/javascript" src="main.js"></script></body>
 </html>

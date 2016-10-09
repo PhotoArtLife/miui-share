@@ -2,27 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="description">
+  <meta name="description" content="description：分享内容的摘要在这自定义">
   <title>webpack模块化打包构建一键分享组件demo</title>
-  <style>
-    * {
-      padding: 0;
-      margin: 0;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-    }
-    .sosh {
-      padding: 10px;
-    }
-  </style>
 </head>
 <body>
-  <img src="http://placekitten.com/300/300" alt="" style="display:none;">
+  <!-- share app会默认抓取第一张img作为img-share-pic-->
+  <img class="share-pic" src="http://placekitten.com/300/300" alt="description-pic：分享内容的缩略图在这自定义">
   
-  <div id="share" data-title="一键分享组件"></div>
-  
-  <div class="share" data-title="classname" data-url="http://miui.com" data-sites="weixin,weibo,qzone,tqq,douban,tieba,yixin,renren" data-pic="http://placekitten.com/200/300"></div>
-
+  <section>
+    <h3>1：使用参数进行设置</h3>
+    <div id="miui-share" data-title="title：分享内容的标题在这自定义"></div>
+  </section> 
+ 
+   <section>
+    <h3>2：使用dataset进行配置</h3> 
+    <div class="share" data-title="title：分享内容的标题在这自定义" data-url="http://miui.com" data-sites="weixin,weibo,qzone,tqq,douban,tieba,yixin,renren" data-pic="http://placekitten.com/200/300"></div>
+   </section> 
 </body>
 </html>
