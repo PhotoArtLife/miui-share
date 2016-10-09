@@ -1,3 +1,6 @@
+demo view：
+https://sec-cdn.static.xiaomi.net/secStatic/groups/miui-sec/mukuashi/StaticRes/share.png
+
 学习webpack，基本始终是围绕：
 
 　　1.如何安装webpack
