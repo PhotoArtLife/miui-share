@@ -1,6 +1,6 @@
 Demo View Image：
 
-<img src="https://sec-cdn.static.xiaomi.net/secStatic/groups/miui-sec/mukuashi/StaticRes/PCShare.png" width="100%"  alt="">
+<img src="https://sec-cdn.static.xiaomi.net/secStatic/groups/miui-sec/mukuashi/StaticRes/9a95ce647f0cbd3ff0365df3a985137893dfbaba.png">
 
 Demo URL：http://sec-cdn.static.xiaomi.net/secStatic/groups/miui-sec/mukuashi/miuiPCShare
 
