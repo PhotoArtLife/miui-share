@@ -27,8 +27,8 @@
 
 　　webpack-dev-server 提供了两种模式用于自动刷新页面：
   
-     1：iframe 模式，我们不访问 http://localhost:8080，而是访问http://localhost:8080/webpack-dev-server/index.html
-    
+     1：iframe 模式，我们不访问 http://localhost:8080，而是访问http://localhost:8080/webpack-dev-server/index.html
+     
      2：inline 模式，在命令行中指定该模式，webpack-dev-server --inline。
      这样http://localhost:8080/index.html 页面就会在 js 文件变化后自动刷新了。
     
@@ -68,12 +68,15 @@ module.exports = {
 　　解决参考资料：
   
 stackoverflow问答：
+
 http://stackoverflow.com/questions/26203725/how-to-allow-for-webpack-dev-server-to-allow-entry-points-from-react-router
 
 stackoverflow问答2：
+
 http://stackoverflow.com/questions/30064746/webpack-dev-server-test-on-mobile
 
 github isuues：
+
 https://github.com/webpack/webpack-dev-server/issues/160
 
 最后，给大家一个建议，多看官方的示例文档，这才是快速入门的最佳渠道，webpack官方文档：https://webpack.github.io/docs/tutorials/getting-started/#development-server　
