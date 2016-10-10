@@ -16,7 +16,6 @@ var output = {
 //调试生产与发布环境判断
 if (DEBUG) {
   plugins.push(new webpack.HotModuleReplacementPlugin({multiStep: true}));
-
   plugins.push(new HtmlWebpackPlugin({
     title: 'Development',
     template: path.resolve(__dirname, 'src/dev/index.html')
@@ -28,9 +27,9 @@ if (DEBUG) {
     'webpack/hot/dev-server'
   ];
 } else {
-  entry = {soshPCShare: './js/index.js'};
+  entry = {miuiPCShare: './js/index.js'};
   //配置输出文件夹的路径和键值
-  output.library = 'soshPCShare';
+  output.library = 'miuiPCShare';
   output.libraryTarget = 'umd';
   output.umdNamedDefine = true;
 }
